@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', function () {
             loginModal.hide();
             document.getElementById('email').value = '';
             document.getElementById('password').value = '';
-            window.location.href = '../pages/dashboard.html'; // Redirect to dashboard
+            window.location.href = 'pages/dashboard.html'; // Redirect to dashboard
         } else {
             alert('Please enter your credentials!');
         }
